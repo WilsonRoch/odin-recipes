@@ -1,3 +1,77 @@
 * {
-  background-color: #ae8507;
+  background-color: #fec20c;
+  color: #3c3e63;
+  /* outline: 2px solid red; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p, li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.menu li a{
+  background-color: white;
+}
+
+.menu li{
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu a {
+  display: inline-block;
+  height: 60px;
+  width: 300px;
+  padding: 20px;
+  text-decoration: solid;
+  border: 2px solid #3c3e63;
+  border-radius: 12px;
+}
+
+.menu p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+img.recipes {
+  border: 4px solid #3c3e63;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  height: 80px;
+  border: 2px solid #3c3e63;
+}
+
+a.back {
+  display: inline-block;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  padding: 16px;
+  margin: 20px;
+  height: 60px;
+  width: 300px;
+  border: 2px solid #3c3e63;
+  border-radius: 12px;
 }
